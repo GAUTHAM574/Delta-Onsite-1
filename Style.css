@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    background-image: url('./R.jpg');
+    background: width 100vw height 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    width: 100vw;
+    font-size: x-large;
+    font-weight: 700;
+    color: azure;
+    background-color: rgb(65, 65, 65);
+    padding: 1%;
+    text-align: center;
+}
+
+.disp
+{
+    display: none;
+}
+
+.border {
+    margin-top: 10vh;
+    width: fit-content;
+    padding: 0.5rem;
+    background: linear-gradient(to right, purple, pink);
+    border-radius: 1em;
+    height: fit-content;
+}
+
+.details {
+
+    padding: 0.5rem;
+    background-color: rgba(138, 43, 226, 0.2);
+    border-radius: 1em;
+    width: fit-content;
+}
+
+.heading {
+    color: rgb(23, 59, 34);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+
+}
+
+.clr{
+    color: rgb(23, 59, 34);
+}
+
+.input {
+    width: max(30vw, 80px);
+    background-color: white;
+    border-radius: 4em;
+    color: rgb(6, 4, 4);
+    padding: 0.8em;
+}
+
+
+.submit {
+    padding: 2vh;
+    margin-top: 5vh;
+    border: 3px solid rgb(207, 70, 70);
+    background-color: rgb(241, 115, 136);
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.result {
+    font-size: x-large;
+    font-weight: 800;
+    color: red;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: pink;
+    border-radius: 5rem;
+
+}
+

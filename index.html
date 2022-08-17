@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body class="body" id="body">
+
+    <div class="header">LOVE 💖 CALCULATOR</div>
+    <center>
+        <div class="border" id="border">
+            <div class="details inner">
+                <center>
+                    <h3 class="heading">Your name</h3>
+                    <input type="text" name="fname" id="fname" required
+                        class="input rounded-corners-gradient-borders rounded-corners-gradient-borders:hover">
+                    <h3 class="heading">Your crush/partner/lover name</h3>
+                    <input type="text" name="sname" id="sname" required
+                        class="input rounded-corners-gradient-borders rounded-corners-gradient-borders:hover">
+                    <br>
+                    <button class="submit" id="submit" onclick="apicalling()">
+                        <h3 class="clr">Find Your Love😍 Percentage</h3>
+                    </button>
+                </center>
+            </div>
+        </div>
+        <div id='again_'>
+            <button class='submit clr disp' onclick="again()" type="submit">
+                <h3>Check for another😏</h3>
+            </button>
+        </div>
+    </center>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
